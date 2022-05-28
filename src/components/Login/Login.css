@@ -1,0 +1,61 @@
+.form-container{
+    margin: 0 auto;
+    width: 600px;
+    border: 1px solid #95a0a7;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+}
+.form-title{
+font-size: 35px;
+color: #2a414f;
+font-weight: 400;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+.input-group label{
+    display: block;
+}
+.input-group input{
+    width: 415px;
+    border: 1px solid #95a0a7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 55px;
+    font-size: 24px;
+}
+.form-submit{
+    width: 415px;
+    height: 55px;
+    background-color: rgba(255, 153, 0, 0.3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.form-submit:hover{
+    background-color: rgba(255, 153, 5, 0.5);
+}
+.form-link{
+    color: orange;
+    text-decoration: none;
+}
+.division{
+    margin: auto;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.row hr{
+    width: 155px;
+    height: 1px;
+    background-color: #95a0a7;
+    border: 0;
+}
